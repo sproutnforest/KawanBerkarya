@@ -6,10 +6,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
-    return view('hello');
+Route::get('/about', function () {
+    return view('aboutus');
 });
 
 Route::get('/help', function() {
     return view('help');
+});
+
+Route::get('/register', function() {
+    return view('register');
 });

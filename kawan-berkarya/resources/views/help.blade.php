@@ -12,9 +12,10 @@
 
         .curved-section {
             background-color: #80d1e6;
-            height: 450px;
-            position: relative;
-            clip-path: ellipse(120% 60% at 50% 0%);
+            height: 300px;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            padding-top: 75px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -109,7 +110,7 @@
                 </div>
             </form>
         </div>
-        <div class="text-center" style="margin-top: -100px;">   
+        <div class="text-center" style="margin-top: 50px;">   
             <h2><b>Frequently Asked Question</b></h2>
         </div>
         <div class="container mt-4" style="padding: 30px 0px;">
@@ -119,22 +120,34 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneLeft" aria-expanded="false" aria-controls="collapseOneLeft">
-                                    Accordion Item #1
+                                    Apa itu KaYa?
                                 </button>
                             </h2>
                             <div id="collapseOneLeft" class="accordion-collapse collapse show" data-bs-parent="#accordionLeft">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong>
+                                    <strong>KaYa (Kawan Berkarya) adalah platform marketplace yang dirancang untuk memberdayakan komunitas disabilitas, memungkinkan mereka untuk berkarya dan berkontribusi dalam ekonomi kreatif.</strong>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoLeft" aria-expanded="false" aria-controls="collapseTwoLeft">
-                                    Accordion Item #2
+                                    Siapa yang dapat bergabung dengan KaYa?
                                 </button>
                             </h2>
                             <div id="collapseTwoLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeLeft" aria-expanded="false" aria-controls="collapseThreeLeft">
+                                    Bagaimana cara mendaftar sebagai penjual di KaYa?
+                                </button>
+                            </h2>
+                            <div id="collapseThreeLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
                                 <div class="accordion-body">
                                     <strong>This is the second item's accordion body.</strong>
                                 </div>
@@ -147,7 +160,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneRight" aria-expanded="false" aria-controls="collapseOneRight">
-                                    Accordion Item #1
+                                    Apakah dana pembelian produk langsung disalurkan ke penjual?
                                 </button>
                             </h2>
                             <div id="collapseOneRight" class="accordion-collapse collapse show" data-bs-parent="#accordionRight">
@@ -159,12 +172,36 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoRight" aria-expanded="false" aria-controls="collapseTwoRight">
-                                    Accordion Item #2
+                                    Apakah semua karya/produk yang dijual berasal dari penjual disabilitas?
                                 </button>
                             </h2>
                             <div id="collapseTwoRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
                                 <div class="accordion-body">
                                     <strong>This is the second item's accordion body.</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeRight" aria-expanded="false" aria-controls="collapseThreeRight">
+                                    Apakah orang yang tidak mempunyai disabilitas bisa menjual produk di KaYa?
+                                </button>
+                            </h2>
+                            <div id="collapseThreeRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourRight" aria-expanded="false" aria-controls="collapseFourRight">
+                                    Apa yang dimaksud dengan sistem donasi berbasis pembelian?
+                                </button>
+                            </h2>
+                            <div id="collapseFourRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                                <div class="accordion-body">
+                                    <strong>Apa yang dimaksud dengan sistem donasi berbasis pembelian?</strong>
                                 </div>
                             </div>
                         </div>

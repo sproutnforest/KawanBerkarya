@@ -79,7 +79,17 @@
               speak(textToSpeak);
           });
           item.addEventListener('mouseout', function() {
-              stopSpeaking(); // Stop speaking when mouse leaves the navbar item
+              stopSpeaking(); 
+          });
+      });
+
+      document.querySelectorAll('.navbar-nav a p').forEach(item => {
+          item.addEventListener('mouseover', function() {
+              const textToSpeak = this.innerText;
+              speak(textToSpeak);
+          });
+          item.addEventListener('mouseout', function() {
+              stopSpeaking(); 
           });
       });
       
@@ -89,7 +99,7 @@
               speak(textToSpeak);
           });
           item.addEventListener('mouseout', function() {
-              stopSpeaking(); // Stop speaking when mouse leaves the classify button
+              stopSpeaking();
           });
       });
       </script>

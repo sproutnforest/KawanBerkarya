@@ -107,7 +107,7 @@
         <div class="curved-section2">
             <h1 style="width: 70vw; text-align: center; padding-top: 25px;">Ini adalah Dukungan Anda untuk Mewujudkan Impian Mereka.</h1>
             <br><h5 style="text-align: center; width: 85vw;">Dengan membeli karya seni atau produk unik ini, Anda tidak hanya mendapatkan barang, tapi juga memberikan kesempatan bagi penyandang disabilitas untuk berbagi kisah melalui talenta mereka. Setiap produk adalah hasil dedikasi dan kerja keras mereka, membuktikan bahwa keterbatasan bukan penghalang untuk berkarya.</h5>
-            <br><button class="btn" style="background-color: #92374D; color: white; padding: 15px 15px; font-size: 20px;">Explore Karya</button>
+            <br><a href="/" class="btn" style="background-color: #92374D; color: white; padding: 15px 15px; font-size: 20px;">Explore Karya</a>
         </div>
         <div class="mid" style="color: white; padding: 120px 0px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;">
             <h3 style="width: 80vw; padding-bottom: 20px;">Berdasarkan data berjalan 2020 dari Biro Pusat Statistik (BPS), jumlah penyandang disabilitas di Indonesia mencapai 22,5 juta warga. </h4>

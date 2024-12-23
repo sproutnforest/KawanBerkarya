@@ -137,7 +137,7 @@
                             </h2>
                             <div id="collapseTwoLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong>
+                                    <strong>Teman teman yang berkebutuhan khusus dan disabilitas diundang untuk berkarya di ladang ini.</strong>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                             </h2>
                             <div id="collapseThreeLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong>
+                                    <strong>Semua yang sudah memiliki aku dapat langsung berjualan di KaYa.</strong>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                             </h2>
                             <div id="collapseOneRight" class="accordion-collapse collapse show" data-bs-parent="#accordionRight">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong>
+                                    <strong>Ya, dana pembelian produk akan disalurkan ke penjual dengan potongan beberapa persen yang dikirim ke pihak KaYa.</strong>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +177,7 @@
                             </h2>
                             <div id="collapseTwoRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong>
+                                    <strong>Ya, produk yang dijual adalah produk yang diunggah oleh para pengguna KaYa</strong>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                             </h2>
                             <div id="collapseThreeRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong>
+                                    <strong>Tidak, halaman ini dikhususkan untuk orang yang memiliki disabilitas.</strong>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +201,7 @@
                             </h2>
                             <div id="collapseFourRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
                                 <div class="accordion-body">
-                                    <strong>Apa yang dimaksud dengan sistem donasi berbasis pembelian?</strong>
+                                    <strong>Pembelian ini oleh dan untuk teman teman yang bekebutuhan khusus.</strong>
                                 </div>
                             </div>
                         </div>

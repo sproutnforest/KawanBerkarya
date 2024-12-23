@@ -116,7 +116,7 @@
         <div class="curved-section-top">
             <h1 style="width: 70vw; text-align: center; padding: 150px 0px 70px 0px;">Mengapa Peran Anda Penting?</h1>
         </div>
-        <div class="mid2" style="background-color: #F8F4A6;">
+        <div class="mid2" style="background-image: linear-gradient(to bottom, #F8F4A6, white);">
             <div class="row justify-content-center g-4">
                 <div class="col-sm-10 col-lg-3" style="background-color: #FFFBF0; margin: 25px;">
                     <div class="p-3">
@@ -151,6 +151,54 @@
             </div>   
         </div> 
     </div>
+    <script>
+        const synth = window.speechSynthesis;
+        
+        function speak(text) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'id-ID';
+            synth.speak(utterance);
+        }
+        
+        function stopSpeaking() {
+            synth.cancel();
+        }
+        
+        window.onload = function() {
+            speak('Halaman About Us');
+        };
+        
+        document.querySelectorAll('.card-link').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                const cardData = JSON.parse(this.getAttribute('data-item'));
+                const textToSpeak = `${cardData.title}, ${cardData.price}, ${cardData.location}, Rating: ${cardData.rating}`;
+                speak(textToSpeak);
+            });
+            item.addEventListener('mouseout', function() {
+                stopSpeaking();
+            });
+        });
+        
+        document.querySelectorAll('.navbar-nav a').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                const textToSpeak = this.innerText;
+                speak(textToSpeak);
+            });
+            item.addEventListener('mouseout', function() {
+                stopSpeaking(); 
+            });
+        });
+        
+        document.querySelectorAll('.classify').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                const textToSpeak = this.innerText;
+                speak(textToSpeak);
+            });
+            item.addEventListener('mouseout', function() {
+                stopSpeaking(); // Stop speaking when mouse leaves the classify button
+            });
+        });
+        </script>
     @include('partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

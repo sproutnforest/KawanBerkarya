@@ -19,13 +19,13 @@
                     <a class="nav-link" href="/" style="color: #FFFBF0;">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about" style="color: #FFFBF0;">Explore</a>
+                    <a class="nav-link" href="/explore" style="color: #FFFBF0;">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact" style="color: #FFFBF0;">About Us</a>
+                    <a class="nav-link" href="/about" style="color: #FFFBF0;">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact" style="color: #FFFBF0;">Help</a>
+                    <a class="nav-link" href="/help" style="color: #FFFBF0;">Help</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">

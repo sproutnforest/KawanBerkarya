@@ -237,6 +237,44 @@
             </div>
         </div>
     </div>    
+    <script>
+        const synth = window.speechSynthesis;
+        
+        function speak(text) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'id-ID';
+            synth.speak(utterance);
+        }
+        
+        function stopSpeaking() {
+            synth.cancel();
+        }
+        
+        window.onload = function() {
+            speak('Halaman Help');
+        };
+        
+        document.querySelectorAll('.card-link').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                const cardData = JSON.parse(this.getAttribute('data-item'));
+                const textToSpeak = `${cardData.title}, ${cardData.price}, ${cardData.location}, Rating: ${cardData.rating}`;
+                speak(textToSpeak);
+            });
+            item.addEventListener('mouseout', function() {
+                stopSpeaking(); // Stop speaking when mouse leaves the card
+            });
+        });
+        
+        document.querySelectorAll('.navbar-nav a').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                const textToSpeak = this.innerText;
+                speak(textToSpeak);
+            });
+            item.addEventListener('mouseout', function() {
+                stopSpeaking(); // Stop speaking when mouse leaves the navbar item
+            });
+        });
+        </script>
     @include('partials.footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
